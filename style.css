@@ -1,0 +1,14 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation {
+    background-color: #ededed;
+    
+    text-align: center;
+}
+
+.vertical-align {
+    padding: 10px 0;
+}
