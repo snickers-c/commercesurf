@@ -5,17 +5,26 @@
   padding-bottom: 20px;
   background-color: #fafafa;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .header-links
 {
-  margin-left: 85px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 750px;
-  text-decoration: none;
+}
+.div-header-logo
+{
+  margin-right: 90px;
 }
 .header-logo-lab
 {
   width: 192px;
+}
+a
+{
+  text-decoration: 0;
+  font-weight: 600;
+  font-size: 17px;
 }
