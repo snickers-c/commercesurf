@@ -1,0 +1,21 @@
+.header 
+{
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+}
+.header-links
+{
+  margin-left: 85px;
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  text-decoration: none;
+}
+.header-logo-lab
+{
+  width: 192px;
+}
