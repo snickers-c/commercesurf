@@ -1,0 +1,14 @@
+.footer-container
+{
+  height: 380px;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+}
+.footer-nadpis
+{
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
