@@ -22,9 +22,14 @@
 {
   width: 192px;
 }
-a
+.header-a
 {
   text-decoration: 0;
+  color: black;
   font-weight: 600;
   font-size: 17px;
+}
+.header-a:hover
+{
+  color: rgb(41,191,255);
 }
