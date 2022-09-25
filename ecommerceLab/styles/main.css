@@ -4,3 +4,9 @@ html, body
   margin: 0px;
   font-family: "roboto", "sans-serif";
 }
+.line-breaker
+{
+  background-color: rgb(40,38,38);
+  height: 10px;
+  margin-top: -5px;
+}
