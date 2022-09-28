@@ -5,9 +5,6 @@
     <title>Domov | E-commerce lab</title>
     <link rel="icon" type="image/x-icon" href="pictures/favicon.png">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,9 +27,30 @@
       </div>
     </div>
     <!---->
-    <video width="100%" height="100%" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="videos/Final.mp4" type="video/mp4">
-    </video>
+    <div class="video-div">
+      <div class="heading">E-COMMERCE LAB</div>
+      <video class="video" width="100%" height="100%" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="videos/Final.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="line-breaker"></div>
+    <!-- Slider -->
+    <div class="slider">
+      <img class="slider-photo" src="pictures/nahlad.png" >
+      <div class="find-more-slider-button">Zistiť viac</div>
+    </div>
+    <div class="line-breaker"></div>
+    <!---->
+    <!-- O nás -->
+    <div class="about-us-index-box">
+      <img class="about-us-background" src="pictures/pozadie3.png">
+      <div class="about-us-box">
+        <div class="about-us-box-title">O NÁS</div>
+        <div class="about-us-box-text">Ahojte sme E-commerce lab, sme malá skupina žiakov SPŠE Hálovej 16 a sme tu, aby sme ťa naučili o niečom čo sa volá Problematika E-commerce. Ponúkame veľký výber kurzov čo ťa pripravia na svet Internetových obchodov (E-shopov). Naše kurzy sú pripravené pre 7, 8 a 9 ročník základných a 1 ročník stredných škôl. Naučíme ta všetko od „Čo je to E-shop“ až po tvorbu vlastného E-shopu.</div>
+      </div>
+      <div class="line-breaker"></div>
+    </div>
+    <!---->
     <!-- Line breaker, skopirovat vsade kde chcete oddelit stránku -->
     <div class="line-breaker"></div>
     <!---->
@@ -43,13 +61,13 @@
         <p class="footer-nadpis">KONTAKT</p>
         <ul class="footer-kontakt-ul">
           <li>
-            <p>Adresa: Hálova 16, 851 01 Bratislava (budova SPŠ elektrotechnickej, bočný vchod)</p>
+            <p><span class="footer-bold">Adresa:</span> Hálova 16, 851 01 Bratislava<br>(budova SPŠ elektrotechnickej, bočný vchod)</p>
           </li>
           <li>
-            <p>Telefón: +421 948 068 744 +421 905 639 141</p>
+            <div class="p-grid"><span class="footer-bold">Telefón:</span><div class="footer-numbers">+421 948 068 744<br>+421 905 639 141</div></div>
           </li>
           <li>
-            <p>mail: info@modelsnavigator.com</p>
+            <p><span class="footer-bold">Mail:</span> info@modelsnavigator.com</p>
           </li>
         </ul>
       </div>
@@ -62,6 +80,9 @@
       </div>
       <div class="footer-grid">
         <p class="footer-nadpis">SOCIÁLNE SIETE</p>
+        <p>instagram</p>
+        <p>tiktok</p>
+        <p>facebook</p>
       </div>
     </div>
   </footer>
