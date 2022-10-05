@@ -249,6 +249,44 @@ text-align: center;
   top: 0px;
   z-index: -1;
 }
+/*
+###############
+###############
+CONTACT
+*/
+.contact-container
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  line-height: 35px;
+}
+.contact-title
+{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.contact-text-container1
+{
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.contact-text-container2
+{
+  font-size: 20px;
+}
+.contact-heading
+{
+  font-size: 23px;
+  font-weight: bold;
+}
+.contact-text1, .contact-text2, .contact-text3
+{
+  width: 360px;
+}
 
 /*
 ###############
