@@ -272,7 +272,7 @@ CONTACT
 {
   font-size: 20px;
   margin-right: 20px;
-  margin-left: 20px;
+  
 }
 .contact-text-container2
 {
@@ -287,7 +287,41 @@ CONTACT
 {
   width: 360px;
 }
+.img1
+{
+  display: flex;
+  justify-content: center;
 
+}
+.img-frame1
+{
+  margin-left: 50px;
+  margin-right: 5px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+}
+.img-frame2
+{
+  margin-right: 50px;
+  margin-left: 5px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+}
+.img-frame1:hover
+{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.img-frame2:hover
+{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.map
+{
+  display: flex;
+  justify-content: center;
+}
 /*
 ###############
 ###############
