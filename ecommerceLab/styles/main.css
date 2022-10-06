@@ -87,12 +87,64 @@ SLIDER
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .slider-photo
 {
   width: 100%;
   height: 510px;
+}
+.slider-title
+{
+  position: absolute;
+  font-size: 100px;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+  margin-top: 9%;
+}
+.slider-slide-buttons
+{
+  position: absolute;
+  width: 100%;
+}
+.slider-left
+{
+  float: left;
+  border: rgb(41,191,255) 2px solid;
+  color:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: 17%;
+  margin-left: 5%;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: rgba(60,151,201, 0.65);
+  cursor: pointer;
+  opacity: 0.4;
+}
+.slider-right
+{
+  float: right;
+  border: rgb(41,191,255) 2px solid;
+  color:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: 17%;
+  margin-right: 5%;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: rgba(60,151,201, 0.65);
+  cursor: pointer;
+  opacity: 0.4;
+}
+.slider-left:hover, .slider-right:hover
+{
+  opacity: 1;
 }
 .find-more-slider-button
 {
@@ -102,14 +154,14 @@ SLIDER
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20%;
   font-size: 33px;
   font-weight: bold;
   background-color: rgba(60,151,201, 0.65);
   cursor: pointer;
 }
-
 /*
 ###############
 ###############
@@ -173,8 +225,10 @@ ABOUT US BOX
   width: 100px;
   border-radius: 3px;
   cursor: pointer;
+  float: right;
+  margin-right: 70px;
+  margin-top: 40px;
 }
-
 @keyframes slideout 
   {
     from {width:100px;}
@@ -207,10 +261,10 @@ ABOUT US BOX
 ###############
 O NAS
 */
-.container
+/*.container
 {
   
-}
+}*/
 .about-us-title
 {
 font-size: 40px;
@@ -373,7 +427,14 @@ footer
   margin-top: 14px;
   margin-bottom: 14px;
 }
-/*
-###############
-###############
-*/
+.footer-column-logo
+{
+  width: 100px;
+  display: flex; 
+  justify-content: space-between;
+}
+.footer-logo
+{
+  width: 36px;
+  margin-bottom: 15px;
+}
