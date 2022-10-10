@@ -314,6 +314,7 @@ CONTACT
   justify-content: center;
   flex-wrap: wrap;
   line-height: 35px;
+  
 }
 .contact-title
 {
@@ -326,7 +327,6 @@ CONTACT
 {
   font-size: 20px;
   margin-right: 20px;
-  
 }
 .contact-text-container2
 {
@@ -375,6 +375,13 @@ CONTACT
 {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+
+.map-margin
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 /*
 ###############
