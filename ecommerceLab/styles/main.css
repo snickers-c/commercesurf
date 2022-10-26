@@ -402,6 +402,33 @@ kurz-template
 /*
 ###############
 ###############
+Galeria
+*/
+.gallery-container
+{
+  width: 1300px;
+  height: 1000px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery-row1
+{
+  position: absolute;
+}
+.gallery-upper-medium
+{
+  width: 655px;
+}
+.gallery-upper-medium-pic
+{
+  width: 100%;
+}
+/*
+###############
+###############
 O NAS
 */
 /*.container
