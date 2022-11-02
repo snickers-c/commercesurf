@@ -429,7 +429,41 @@ kurz-template
   font-size: 20px;
   font-weight: bold;
 }
-
+.fajka
+{
+  width: 50px;
+  height: 50px;
+}
+.course-template-course-instance
+{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 0 5px black;
+}
+/*.course-template-course-title
+{
+}
+  */
+  .course-template-course-section
+{
+  display: flex;
+  align-items: center;
+}
+.course-template-course-price
+{
+  margin-right: 150px;
+}
+.course-template-date
+{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
 /*
 ###############
 ###############
