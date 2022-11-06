@@ -458,6 +458,32 @@ Aktuality
 /*
 ###############
 ###############
+Aktuality template
+*/
+.news-template-title
+{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.news-template-img
+{
+  width: 1000px;
+  height: 550px;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+  display: block;
+}
+.news-template-text
+{
+  font-size: 18px;
+  margin-top: 30px;
+}
+/*
+###############
+###############
 Galeria
 */
 .pictext
