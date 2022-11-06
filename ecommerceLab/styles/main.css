@@ -10,6 +10,28 @@ html, body
   height: 10px;
   margin-top: -5px;
 }
+.background-img
+{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+  top: 0;
+}
+.page-template
+{
+  background-color: white;
+  z-index: -2;
+  width: 1400px;
+  margin: 0 auto;
+}
+.section-template
+{
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
 .blue-button
 {
   background-color: #29BFFF;
@@ -21,6 +43,11 @@ html, body
   padding-right: 16px;
   font-size: 17px;
   cursor: pointer
+}
+.course-a
+{
+  text-decoration: 0;
+  color: white;
 }
 .relative
 {
@@ -287,110 +314,47 @@ ABOUT US BOX
 ###############
 Kurzy
 */
-.course-back-ground-img
-{
-  background-image: url("https://raw.githubusercontent.com/snickers-c/commercesurf/main/ecommerceLab/pictures/Untitled%20design.png");
-  /*
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  top: 0px;
-  z-index: -1;*/
-}
-.course-back-ground
-{
-  background-color: white;
-  z-index: -2;
-  width: 1200px;
-  margin: 0 auto;
-}
-.course-white-sand
-{
-  height: auto;
-}
 .course-title
 {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
-  margin-top: 0px;
+  margin-bottom: 40px;
 }
-.course-1
+.course
 {
   font-size: 30px;
   font-weight: bold;
   border: 3px solid #ddd;
   width: 940px;
   height: 300px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
-.course-1-img-div
+.course-img-div
 {
   padding-right: 40px;
   width: 470px;
   height: 300px;
   display: inline-block;
 }
-.course-1-img
+.course-img
 {
   height:100%;
-  
-
 }
-.course-1-text
+.course-text
 {
   width: 40%;
   height: 300px;
   display: inline-block;
   vertical-align: top;
 }
-
-.course-2
-{
-  font-size: 30px;
-  font-weight: bold;
-  border: 3px solid #ddd;
-  width: 940px;
-  height: 300px;
-  margin: auto;
-  margin-top: 100px;
-}
-.course-2-img
-{
-  padding-right: 40px;
-  width: 470px;
-  height: 300px;
-  display: inline-block;
-}
-.course-2-text
-{
-  display: inline-block;
-  width: 436px;
-  height: 300px;
-  
-}
-
 /*
 ###############
 ###############
 kurz-template
 */
-.course-template-back-ground-img
-{
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  z-index: -99;
-  top: 0;
-}
-.course-template-back-ground
-{
-  background-color: white;
-  z-index: -2;
-  width: 1200px;
-  margin: 0 auto;
-
-}
 .course-template-title
 {
   font-size: 40px;
@@ -407,22 +371,17 @@ kurz-template
 }
 .couese-template-title-center
 {
-  width: 720px;
+  width: 1000px;
   margin: auto;
-}
-.course-template-section
-{
-  width: 980px;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 30px;
 }
 .course-template-img
 {
   text-align: center;
-  width: 720px;
-  height: 360px;
+  width: 1000px;
+  height: 550px;
   margin-bottom: 50px;
+  object-fit: cover;
+  object-position: center;
 }
 .course-template-time
 {
@@ -434,6 +393,21 @@ kurz-template
   width: 50px;
   height: 50px;
 }
+.course-template-available
+{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.course-template-border
+{
+  border: 2px black solid;
+  padding: 30px;
+  padding-top: 0;
+  border-radius: 10px;
+}
 .course-template-course-instance
 {
   display: flex;
@@ -443,12 +417,9 @@ kurz-template
   padding-top: 5px;
   padding-bottom: 5px;
   box-shadow: 0 0 5px black;
+  margin-top: 25px;
 }
-/*.course-template-course-title
-{
-}
-  */
-  .course-template-course-section
+.course-template-course-section
 {
   display: flex;
   align-items: center;
@@ -584,10 +555,6 @@ Galeria
 ###############
 O NAS
 */
-/*.container
-{
-  
-}*/
 .about-us-title
 {
 font-size: 40px;
