@@ -74,11 +74,12 @@ HEADER
 .header 
 {
   padding-left: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #fafafa;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 2px 8px 0 rgba(0, 0, 0, 0.4);
 }
 .header-links
 {
@@ -106,7 +107,6 @@ HEADER
 {
   color: rgb(41,191,255);
 }
-
 /*
 ###############
 ###############
@@ -129,7 +129,6 @@ VIDEO
   color:white;
   text-shadow: rgba(0,0,0,0.4) 0px 4px 5px;
 }
-
 /*
 ###############
 ###############
@@ -440,20 +439,51 @@ kurz-template
 ###############
 Aktuality
 */
+.news-flex
+{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 500px;
+}
 .news-container
 {
-  border:solid 2px rgba(0, 140, 186, 0.5);
+  padding: 20px;
+  border:solid 2px rgba(0, 140, 186, 0.2);
   width:760px;
+  margin-top: 40px;
+  position: absolute;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 10px;
 }
 .news-title
 {
   font-weight: bold;
   font-size: 35px;
+  margin: 0;
 }
 .news-autor
 {
   font-weight: 400;
   font-size: 30px;
+  color: #4b4b4b;
+}
+.news-readmore
+{
+  color: #29BFFF;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-decoration: 0;
+}
+.news-readmore:hover
+{
+  opacity: 0.6;
+}
+.news-text
+{
+  font-weight: 300;
 }
 /*
 ###############
@@ -488,25 +518,21 @@ Galeria
 */
 .pictext
 {
-  width: 630px;
   opacity: 0;
   position: absolute;
-  top: 0px;
-  padding-top: 25px;
-  padding-left: 25px;
+  top: 25px;
+  left: 25px;
   color: white;
   font-weight: bold;
   font-size: 25px;
 }
-
-.contentpic:hover
+.contentpic:hover img
 {
   filter: brightness(75%);
 }
-.pictext:hover
+.contentpic:hover .pictext
 {
   opacity: 1;
-  filter: brightness(100%) !important;
 }
 .gallery
 {
@@ -539,7 +565,7 @@ Galeria
 }
 .gallery-right2
 {
-  width: 789px;
+  width: 794px;
   display: inline-block;
 }
 .gallery-large
@@ -630,14 +656,14 @@ CONTACT
   justify-content: center;
   flex-wrap: wrap;
   line-height: 35px;
-  
 }
 .contact-title
 {
+  margin-top: 20px;
+  margin-bottom: 5px;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
-
 }
 .contact-text-container1
 {
@@ -661,7 +687,6 @@ CONTACT
 {
   display: flex;
   justify-content: center;
-
 }
 .img-frame1
 {
@@ -693,7 +718,6 @@ CONTACT
   justify-content: center;
   text-align: center;
 }
-
 .map-margin
 {
   margin-top: 50px;
