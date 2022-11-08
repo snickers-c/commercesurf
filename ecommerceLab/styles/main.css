@@ -534,6 +534,11 @@ Galeria
 {
   opacity: 1;
 }
+.gallery-2img-fix
+{
+  display: flex;
+  position: relative;
+}
 .gallery
 {
   border-radius: 15px;
