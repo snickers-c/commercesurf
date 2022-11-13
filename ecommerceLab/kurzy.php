@@ -19,36 +19,37 @@
       <div class="course-title">
         Naše kurzy
       </div>
-      <div class="course">
+      <?php
+      include('./connect.php');
+      $result_kurz = ($conn->query("SELECT * FROM kurzy"));
+      $row_kurz = [];
+      if ($result_kurz ->num_rows > 0)
+      {
+        $row_kurz = $result_kurz ->fetch_all(MYSQLI_ASSOC);
+      }
+      if(!empty($row_kurz))
+               foreach($row_kurz as $rows)
+               {
+                if($rows['active'] == 1)
+                {
+                  echo '<div class="course">
         <div class="course-img-div">
           <img class="course-img"
-            src="https://raw.githubusercontent.com/snickers-c/commercesurf/main/ecommerceLab/pictures/Entrance.png">
+          src="' . $rows["img"] . '">
         </div>
         <div class="course-text">
           <p>
-            Zážitkový kurz
+            '. $rows['title'] .'
           </p>
           <p>
-            Ukončené
+            '. $rows['text'] .'
           </p>
           <button class="blue-button"><a class="course-a" href="kurz-template.php">Zobraziť kurz</a></button><br><br>
         </div>
-      </div>
-      <div class="course">
-        <div class="course-img-div">
-          <img class="course-img"
-            src="https://raw.githubusercontent.com/snickers-c/commercesurf/main/ecommerceLab/pictures/Entrance.png">
-        </div>
-        <div class="course-text">
-          <p>
-            Zážitkový kurz
-          </p>
-          <p>
-            Ukončené
-          </p>
-          <button class="blue-button"><a class="course-a" href="kurz-template.php">Zobraziť kurz</a></button><br><br>
-        </div>
-      </div>
+      </div>';
+                }
+               }
+      ?>
     </section>
   </div>
   <div class="line-breaker"></div>
