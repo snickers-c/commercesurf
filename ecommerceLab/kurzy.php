@@ -4,8 +4,7 @@
   <title>Kurzy | E-commerce lab</title>
   <?php
     include('./head.php');
-    ?>
-  <!-- Roboto -->
+  ?>
 </head>
 <body>
   <?php
@@ -21,34 +20,31 @@
       </div>
       <?php
       include('./connect.php');
-      $result_kurz = ($conn->query("SELECT * FROM kurzy"));
+      $result_kurz = ($conn->query("SELECT * FROM kurzy WHERE active = 1"));
       $row_kurz = [];
       if ($result_kurz ->num_rows > 0)
       {
         $row_kurz = $result_kurz ->fetch_all(MYSQLI_ASSOC);
       }
       if(!empty($row_kurz))
-               foreach($row_kurz as $rows)
-               {
-                if($rows['active'] == 1)
-                {
-                  echo '<div class="course">
-        <div class="course-img-div">
-          <img class="course-img"
-          src="' . $rows["img"] . '">
-        </div>
-        <div class="course-text">
-          <p>
-            '. $rows['title'] .'
-          </p>
-          <p>
-            '. $rows['text'] .'
-          </p>
-          <button class="blue-button"><a class="course-a" href="kurz-template.php">Zobraziť kurz</a></button><br><br>
-        </div>
-      </div>';
-                }
-               }
+        foreach($row_kurz as $rows)
+        {
+           echo '<div class="course">
+            <div class="course-img-div">
+              <img class="course-img"
+              src="' . $rows["img"] . '">
+            </div>
+            <div class="course-text">
+              <p>
+                '. $rows['title'] .'
+              </p>
+              <p>
+                '. $rows['text'] .'
+              </p>
+              <button class="blue-button"><a class="course-a" href="kurz-template.php">Zobraziť kurz</a></button><br><br>
+            </div>
+            </div>';
+        }
       ?>
     </section>
   </div>
