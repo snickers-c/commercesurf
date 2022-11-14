@@ -753,7 +753,7 @@ footer
 {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #2c5791;
   height: 380px;
   color: white;
 }
@@ -769,7 +769,7 @@ footer
   margin-top: 100px;
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
 }
 .footer-kontakt-ul
 {
@@ -797,18 +797,23 @@ footer
 .footer-info-links
 {
   text-decoration: underline;
-  color: rgb(165, 165, 165);
+  color: white;
   font-size: 15px;
+  font-weight: 500;
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.footer-info-links:hover
+{
+  color: rgba(39, 173, 226, 1);
+}
 .footer-column-logo
 {
-  width: 75px;
+  width: 120px;
   display: flex; 
   justify-content: space-between;
 }
 .footer-logo
 {
-  width: 30px;
+  width: 50px;
 }
