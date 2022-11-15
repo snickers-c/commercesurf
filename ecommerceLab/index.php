@@ -50,7 +50,7 @@
         </div>
       </div>
       <div>
-        <a href="o-nas.php" target="_top"><button class="about-us-button">Viac</button></a>
+        <a href="o-nas.php"><button class="about-us-button">Viac</button></a>
       </div>
     </div>
   </div>
