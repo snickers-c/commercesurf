@@ -747,6 +747,20 @@ Obchodne podmienky
 /*
 ###############
 ###############
+checkout
+*/
+.checkout-row
+{
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-left-section, .checkout-right-section
+{
+  width: 45%;
+}
+/*
+###############
+###############
 footer
 */
 footer
@@ -762,7 +776,6 @@ footer
   width: 1032px;
   display: flex;
   justify-content: space-between;
-  line-height: 30px;
 }
 .footer-nadpis
 {
