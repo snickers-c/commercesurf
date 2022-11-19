@@ -65,6 +65,12 @@ html, body
 {
   margin-top: 10px;
 }
+.underline100
+{
+  background-color: black;
+  height: 3px;
+  margin-bottom: 10px;
+}
 /*
 ###############
 ###############
@@ -757,6 +763,37 @@ checkout
 .checkout-left-section, .checkout-right-section
 {
   width: 45%;
+}
+.checkout-section-title
+{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.checkout-field, .checkout-select
+{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+  width: 526px;
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 5px;
+}
+.checkout-select
+{
+  width: 540px;
+}
+.checkout-text-field
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+  width: 526px;
 }
 /*
 ###############
