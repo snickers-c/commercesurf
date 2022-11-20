@@ -41,7 +41,9 @@
               <p>
                 '. $rows['text'] .'
               </p>
-              <button class="blue-button"><a class="course-a" href="kurz-template.php">Zobraziť kurz</a></button><br><br>
+              <button class="blue-button"><a class="course-a" href="kurz-template.php?ide='
+              . $rows['id'] .
+              '">Zobraziť kurz</a></button><br><br>
             </div>
             </div>';
         }
