@@ -16,14 +16,14 @@
               <div class="checkout-form">
                 <p class="checkout-section-title">Údaje účastníka kurzu</p>
                 <div class="underline100"></div>
-                  <input type="text" name="meno" placeholder="Meno"><br>
-                  <input type="text" name="priezvisko" placeholder="Priezvisko"><br>
-                  <input type="email" name="email" placeholder="E-mail"><br>
-                  <input type="text" name="telefon" placeholder="Telefónny kontakt"><br>
-                  <input type="text" name="ulica" placeholder="Ulica"><br>
-                  <input type="text" name="mesto" placeholder="Mesto"><br>
-                  <input type="text" name="psc" placeholder="PSČ"><br>
-                  <select name="mesto">
+                  <input class="checkout-field" type="text" name="meno" placeholder="Meno"><br>
+                  <input class="checkout-field" type="text" name="priezvisko" placeholder="Priezvisko"><br>
+                  <input class="checkout-field" type="email" name="email" placeholder="E-mail"><br>
+                  <input class="checkout-field" type="text" name="telefon" placeholder="Telefónny kontakt"><br>
+                  <input class="checkout-field" type="text" name="ulica" placeholder="Ulica"><br>
+                  <input class="checkout-field" type="text" name="mesto" placeholder="Mesto"><br>
+                  <input class="checkout-field" type="text" name="psc" placeholder="PSČ"><br>
+                  <select class="checkout-select" name="mesto">
                     <option value="sk">Slovenská republika</option>
                     <option value="cz">Česká republika</option>
                     <option value="ine">Íne</option>
@@ -34,11 +34,13 @@
               <p class="checkout-section-title">Zhrnutie objednávky</p>
               <div class="underline100"></div>
               <div class="checkout-info">
-                <p>Krátky popis kurzu na jeden riadok by mohol idealne byť</p>
+                <p>Nazov kurzu</p>
                 <img style="width:100px;height:100px;" src="https://raw.githubusercontent.com/snickers-c/commercesurf/main/ecommerceLab/pictures/Entrance.png">
                 <p>datum</p>
                 <p>pocet volnych miest</p>
-                <p>cena</p>
+                <p>celkova cena</p>
+                <input type="checkbox" class="" name="" id="" required>
+                <p>Bol som oboznámený so <span><a href="http://localhost/ecommerceLab/obchodne-podmienky.php">Všeobecnými podmienkami</a></span></p>
               </div>
             </div>
           </div>
@@ -47,7 +49,7 @@
                 <div class="checkout-form">
                   <p class="checkout-section-title">Poznámka</p>
                   <div class="underline100"></div>
-                    <input type="text" name="poznamka" placeholder="Povecte nám čo máte na mysli."><br>
+                    <input type="text" name="poznamka" class="checkout-text-field" placeholder="Povecte nám čo máte na mysli."><br>
                 </div>
               </div>
               <div class="checkout-right-section">
