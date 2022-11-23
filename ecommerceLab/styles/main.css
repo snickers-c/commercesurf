@@ -795,6 +795,14 @@ checkout
   margin-top: 10px;
   width: 526px;
 }
+.checkout-info{
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
 /*
 ###############
 ###############
