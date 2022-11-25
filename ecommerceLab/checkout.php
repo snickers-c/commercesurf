@@ -16,13 +16,13 @@
               <div class="checkout-form">
                 <p class="checkout-section-title">Údaje účastníka kurzu</p>
                 <div class="underline100"></div>
-                  <input class="checkout-field" type="text" name="meno" placeholder="Meno"><br>
-                  <input class="checkout-field" type="text" name="priezvisko" placeholder="Priezvisko"><br>
-                  <input class="checkout-field" type="email" name="email" placeholder="E-mail"><br>
-                  <input class="checkout-field" type="text" name="telefon" placeholder="Telefónny kontakt"><br>
-                  <input class="checkout-field" type="text" name="ulica" placeholder="Ulica"><br>
-                  <input class="checkout-field" type="text" name="mesto" placeholder="Mesto"><br>
-                  <input class="checkout-field" type="text" name="psc" placeholder="PSČ"><br>
+                  <input class="checkout-field" type="text" name="meno" placeholder="Meno" required><br>
+                  <input class="checkout-field" type="text" name="priezvisko" placeholder="Priezvisko" required><br>
+                  <input class="checkout-field" type="email" name="email" placeholder="E-mail" required><br>
+                  <input class="checkout-field" type="text" name="telefon" placeholder="Telefónny kontakt" required><br>
+                  <input class="checkout-field" type="text" name="ulica" placeholder="Ulica" required><br>
+                  <input class="checkout-field" type="text" name="mesto" placeholder="Mesto" required><br>
+                  <input class="checkout-field" type="text" name="psc" placeholder="PSČ" required><br>
                   <select class="checkout-select" name="mesto">
                     <option value="sk">Slovenská republika</option>
                     <option value="cz">Česká republika</option>
@@ -49,7 +49,8 @@
                 <div class="checkout-form">
                   <p class="checkout-section-title">Poznámka</p>
                   <div class="underline100"></div>
-                    <input type="text" name="poznamka" class="checkout-text-field" placeholder="Povecte nám čo máte na mysli."><br>
+                    <!--<input type="text" name="poznamka" class="checkout-text-field" placeholder="Povecte nám čo máte na mysli."><br>-->
+                    <textarea class="checkout-text-field" type="text" name="poznamka" placeholder="Povecte nám čo máte na mysli." rows="10" cols="80"></textarea><br>
                 </div>
               </div>
               <div class="checkout-right-section">
