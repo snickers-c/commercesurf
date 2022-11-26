@@ -521,6 +521,10 @@ Aktuality template
 ###############
 Galeria
 */
+.gallery-row2
+{
+  height: 664.69px;
+}
 .pictext
 {
   opacity: 0;
@@ -625,10 +629,9 @@ text-align: center;
 }
 .about-us-text-1
 {
-  width: 748px;
+  width: 1000px;
   font-size: 21px;
   background-color: white;
-  padding: 0px 50px 0px 50px;
 }
 .about-us-flex
 {
@@ -637,7 +640,7 @@ text-align: center;
 }
 .about-us-text-2
 {
-  width: 748px;
+  width: 1000px;
   font-size: 25px;
   margin-top: 100px;
 }
@@ -654,6 +657,19 @@ text-align: center;
   height: 100vh;
   top: 0px;
   z-index: -1;
+}
+.about-us-lecturer-background img
+{
+  background-color: black;
+  width: 290px;
+  height: 364px;
+  object-fit:contain;
+  object-position: 15px;
+}
+.about-us-team-row
+{
+  display: flex;
+  justify-content: space-between;
 }
 /*
 ###############
@@ -801,7 +817,6 @@ checkout
   font-size: 20px;
   padding-left: 5px;
   padding-right: 5px;
-
 }
 /*
 ###############
