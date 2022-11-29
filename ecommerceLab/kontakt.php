@@ -74,14 +74,14 @@
     </div>
     <div class="map" class="mapouter">
       <div class="gmap_canvas">
-        <iframe class="map-margin" width="850" height="500" id="gmap_canvas"
-          src="https://maps.google.com/maps?q=Halova%2016&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0"
-          scrolling="no" marginheight="50" marginwidth="200"></iframe>
-        <a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1119.8493390528681!2d17.104232292766657!3d48.12054370298708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c899fd4733b61%3A0xe61e45d972240830!2zSMOhbG92YSA5OTMvMTYsIDg1MSAwMSBQZXRyxb5hbGth!5e0!3m2!1ssk!2ssk!4v1669746022435!5m2!1ssk!2ssk"
+          width="850" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
         <style>
           .mapouter {
             position: relative;
-            text-align: right;
+            text-align: center;
             height: 500px;
             width: 850px;
           }
@@ -93,8 +93,8 @@
             background: none !important;
             height: 500px;
             width: 850px;
-            margin-top: 50px;
-            margin-bottom: 50px;
+            margin-top: 100px;
+            margin-bottom: 100px;
           }
         </style>
       </div>
