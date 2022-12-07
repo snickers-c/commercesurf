@@ -795,8 +795,9 @@ checkout
   padding-right: 5px;
   margin-top: 10px;
   width: 526px;
-  border: 2px solid rgb(0, 162, 255);
-  border-radius: 5px;
+  border: 2px solid rgb(159, 159, 159);
+  box-shadow: 2px 5px 5px rgb(186, 186, 186);
+  
 }
 .checkout-select
 {
@@ -812,11 +813,43 @@ checkout
   width: 526px;
 }
 .checkout-info{
-  border: 2px solid rgb(0, 162, 255);
-  border-radius: 5px;
+  border: 2px solid rgb(159, 159, 159);
   font-size: 20px;
   padding-left: 5px;
   padding-right: 5px;
+
+}
+.bold-text
+{
+  font-weight: bold;
+}
+.checkout-info-color
+{
+  background-color: rgba(151, 211, 255, 1);
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+.button-checkout
+{
+  width: 540px;
+  height: 45px;
+  background-color: rgba(0, 209, 255, 1);
+  color: white;
+  border-color: rgba(0, 163, 255, 1);
+  border-style: solid;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.checkout-text
+{
+  text-align: center;
+  margin-top: 5px;
 }
 /*
 ###############
