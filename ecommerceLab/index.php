@@ -22,17 +22,71 @@
   <div class="line-breaker"></div>
   <!---->
   <!-- Slider -->
-  <div class="slider">
-    <img class="slider-photo"
-      src="https://raw.githubusercontent.com/snickers-c/commercesurf/main/ecommerceLab/pictures/Untitled%20design.png">
-    <div class="slider-title">X Kurz</div>
-    <div class="slider-slide-buttons">
-      <div class="slider-left"><
-      </div>
-      <div class="slider-right">></div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img
+        src="https://media.istockphoto.com/id/1343540448/nl/foto/gravel-road-through-a-lined-with-trees-and-a-windmill-on-the-field.jpg?s=1024x1024&w=is&k=20&c=A4QqUnSNLboUGhID8gDeEo7yaL5Q7XGSP1-f2zOf91k="
+        class="slider-img">
+      <div class="text">Caption Text</div>
+      <a href="/ecommerceLab/error404.php">
+        <button class="find-more-slider-button">Zistiť viac</button>
+      </a>
     </div>
-    <div class="find-more-slider-button">Zistiť viac</div>
+    <div class="mySlides fade">
+      <img
+        src="https://media.istockphoto.com/id/1343540448/nl/foto/gravel-road-through-a-lined-with-trees-and-a-windmill-on-the-field.jpg?s=1024x1024&w=is&k=20&c=A4QqUnSNLboUGhID8gDeEo7yaL5Q7XGSP1-f2zOf91k="
+        class="slider-img">
+      <div class="text">Caption Two</div>
+      <a href="/ecommerceLab/error404.php">
+        <button type="button" class="find-more-slider-button">Zistiť viac</button>
+      </a>
+    </div>
+    <div class="mySlides fade">
+      <img
+        src="https://media.istockphoto.com/id/1343540448/nl/foto/gravel-road-through-a-lined-with-trees-and-a-windmill-on-the-field.jpg?s=1024x1024&w=is&k=20&c=A4QqUnSNLboUGhID8gDeEo7yaL5Q7XGSP1-f2zOf91k="
+        class="slider-img">
+      <div class="text">Caption Three</div>
+      <a href="/ecommerceLab/error404.php">
+        <button type="button" class="find-more-slider-button">Zistiť viac</button>
+      </a>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
   </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
   <div class="line-breaker"></div>
   <!---->
   <!-- O nás -->
