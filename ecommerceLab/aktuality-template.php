@@ -65,7 +65,6 @@ include('./header.php');
       </p>
     </section>
   </div>
-  <div class="line-breaker"></div>
 </body>
 <?php
 include('./footer.php');
