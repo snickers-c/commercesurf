@@ -5,7 +5,6 @@
   <?php
   include('./head.php');
   ?>
-  <!-- Roboto -->
 </head>
 <body>
   <?php
@@ -35,7 +34,6 @@
       </div>
     </div>
   </div>
-  <div class="line-breaker"></div>
 </body>
 <footer>
   <?php
