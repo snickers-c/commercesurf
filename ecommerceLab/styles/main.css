@@ -521,9 +521,10 @@ Aktuality template
 ###############
 Galeria
 */
-.gallery-row2
+.gallery-row1, .gallery-row2
 {
-  height: 664.69px;
+  height: 660.69px;
+  margin-bottom: 10px;
 }
 .pictext
 {
@@ -542,11 +543,6 @@ Galeria
 .contentpic:hover .pictext
 {
   opacity: 1;
-}
-.gallery-2img-fix
-{
-  display: flex;
-  position: relative;
 }
 .gallery
 {
@@ -605,6 +601,13 @@ Galeria
 }
 .gallery-lower-small
 {
+  height: 214px;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-lowerer-small
+{
+  height: 167.33px;
   display: flex;
   justify-content: space-between;
 }
