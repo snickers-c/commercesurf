@@ -100,7 +100,6 @@
       </div>
     </div>
   </div>
-  <div class="line-breaker"></div>
 </body>
 <footer>
   <?php
