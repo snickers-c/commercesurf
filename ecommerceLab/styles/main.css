@@ -33,11 +33,11 @@ html, body
 }
 .section-template
 {
-  width: 1200px;
-  min-height: 100vh;
+  width: 1000px;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 30px;
+  min-height: 100vh;
 }
 .blue-button
 {
@@ -152,6 +152,7 @@ SLIDER
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 img {vertical-align: middle;}
+
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
@@ -160,14 +161,16 @@ img {vertical-align: middle;}
   margin: auto;
   
 }
+
 .slider-img
 {
   width: 100%;
   object-fit: cover;
   object-position: center;
   height: 635px;
-  animation: slide 4s infinite;
+  
 }
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -183,15 +186,18 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
 /* Caption text */
 .text {
   color: #ffffff;
@@ -202,6 +208,7 @@ img {vertical-align: middle;}
   text-align: center;
   font-weight: bold;
 }
+
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -210,6 +217,7 @@ img {vertical-align: middle;}
   position: absolute;
   top: 0;
 }
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -223,6 +231,7 @@ img {vertical-align: middle;}
   position: relative;
   bottom: 50px;
 }
+
 .active, .dot:hover {
   background-color: #717171;
 }
@@ -232,6 +241,7 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 .find-more-slider-button
 {
   border: 0;
@@ -247,10 +257,12 @@ img {vertical-align: middle;}
   left: 46%;
   padding: 10px;
 }
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
@@ -294,8 +306,8 @@ ABOUT US BOX
 }
 .about-us-box-text
 {
-  color: white;
   width: 1100px;
+  color: white;
   font-size: 20px;
   line-height: 27px;
   word-spacing: 1px;
@@ -321,8 +333,6 @@ ABOUT US BOX
   padding-right: 58px;
   border-radius: 29px;
   cursor: pointer;
-  margin-right: 0px;
-  margin-top: 0px;
 }
 @keyframes slideout 
   {
@@ -335,7 +345,8 @@ ABOUT US BOX
     to {padding-top: 18px;
       padding-bottom: 18px;
       padding-left: 75px;
-      padding-right: 75px;}
+      padding-right: 75px;
+    }
   }
 .about-us-button:hover
 {
@@ -374,7 +385,6 @@ Kurzy
   font-size: 30px;
   font-weight: bold;
   border: 3px solid #ddd;
-  width: 940px;
   height: 306px;
   margin-left: auto;
   margin-right: auto;
@@ -417,12 +427,6 @@ kurz-template
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.couese-template-title-center
-{
-  width: 1000px;
-  margin: auto;
-  margin-bottom: 50px;
-}
 .course-template-img
 {
   text-align: center;
@@ -450,13 +454,6 @@ kurz-template
   margin-top: 50px;
   margin-bottom: 0px;
 }
-/*.course-template-border
-{
-  border: 2px black solid;
-  padding: 30px;
-  padding-top: 0;
-  border-radius: 10px;
-}*/
 .course-template-course-instance
 {
   display: flex;
@@ -495,12 +492,12 @@ Aktuality
 */
 .news-container
 {
-  margin-left: auto;
-  margin-right: auto;
   padding: 20px;
   border:solid 2px rgba(0, 140, 186, 0.2);
   width:1000px;
   border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .news-title
 {
@@ -557,19 +554,16 @@ Aktuality template
 }
 .news-template-text
 {
+  margin: auto;
   font-size: 18px;
   margin-top: 30px;
+  width: 1000px;
 }
 /*
 ###############
 ###############
 Galeria
 */
-.gallery-row1, .gallery-row2
-{
-  height: 660.69px;
-  margin-bottom: 10px;
-}
 .pictext
 {
   opacity: 0;
@@ -588,10 +582,15 @@ Galeria
 {
   opacity: 1;
 }
+.gallery-2img-fix
+{
+  display: flex;
+  position: relative;
+}
 .gallery
 {
-  vertical-align: 0;
   border-radius: 15px;
+  vertical-align: 0;
 }
 .gallery-container
 {
@@ -646,13 +645,6 @@ Galeria
 }
 .gallery-lower-small
 {
-  height: 214px;
-  display: flex;
-  justify-content: space-between;
-}
-.gallery-lowerer-small
-{
-  height: 167.33px;
   display: flex;
   justify-content: space-between;
 }
@@ -671,6 +663,7 @@ O NAS
 */
 .about-us-title
 {
+  margin-top: 0;
 font-size: 40px;
 font-weight: bold; 
 text-align: center;
@@ -814,6 +807,10 @@ Obchodne podmienky
   margin-top: 350px;
   margin-bottom: 350px;
 }
+.business-terms-paragraph
+{
+  font-weight: bold
+}
 /*
 ###############
 ###############
@@ -879,7 +876,7 @@ checkout
 }
 .button-checkout
 {
-  width: 540px;
+  width: 450px;
   height: 45px;
   background-color: rgba(0, 209, 255, 1);
   color: white;
