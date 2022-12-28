@@ -25,7 +25,7 @@
     <div class="slideshow-container">
         <?php
   include('./connect.php');
-  $result_kurz = ($conn->query("SELECT * FROM slider"));
+  $result_kurz = ($conn->query("SELECT * FROM kurzy WHERE slider = 1"));
   $row_kurz = [];
   if ($result_kurz ->num_rows > 0)
   {
@@ -39,8 +39,8 @@
       <img
         src=" ' . $rows['img']. ' "
         class="slider-img">
-      <div class="text">' . $rows['text'] . '</div>
-      <a href="' . $rows['link'] . '">
+      <div class="text">' . $rows['title'] . '</div>
+      <a href="kurz-template?ide=' . $rows['id'] . '">
         <button class="find-more-slider-button">Zistiť viac</button>
       </a>
     </div>';
@@ -97,25 +97,26 @@
     <!---->
     <!-- O nás -->
     <div class="about-us-box-container">
-    <img class="about-us-background" src="https://raw.githubusercontent.com/snickers-c/commercesurf/main/ecommerceLab/pictures/pozadie3.png">
-    <div class="about-us-box">
-      <div class="about-us-box-title">O NÁS</div>
-      <div class="about-us-box-text-div">
-        <div class="about-us-box-text">
-          Ahojte sme E-commerce lab, sme malá skupina žiakov SPŠE Hálovej 16 a sme tu, aby sme ťa naučili o niečom čo
-          sa volá Problematika E-commerce. Ponúkame veľký výber kurzov čo ťa pripravia na svet Internetových obchodov
-          (E-shopov). Naše kurzy sú pripravené pre 7, 8 a 9 ročník základných a 1 ročník stredných škôl. Naučíme ta
-          všetko od „Čo je to E-shop“ až po tvorbu vlastného E-shopu.
+        <img class="about-us-background"
+            src="https://raw.githubusercontent.com/snickers-c/commercesurf/main/ecommerceLab/pictures/pozadie3.png">
+        <div class="about-us-box">
+            <div class="about-us-box-title">O NÁS</div>
+            <div class="about-us-box-text-div">
+                <div class="about-us-box-text">
+                    Ahojte sme E-commerce lab, sme malá skupina žiakov SPŠE Hálovej 16 a sme tu, aby sme ťa naučili o
+                    niečom čo
+                    sa volá Problematika E-commerce. Ponúkame veľký výber kurzov čo ťa pripravia na svet Internetových
+                    obchodov
+                    (E-shopov). Naše kurzy sú pripravené pre 7, 8 a 9 ročník základných a 1 ročník stredných škôl.
+                    Naučíme ta
+                    všetko od „Čo je to E-shop“ až po tvorbu vlastného E-shopu.
+                </div>
+            </div>
+            <div class="index-o-nas-button-viac-center">
+                <a href="o-nas"><button class="about-us-button">Viac</button></a>
+            </div>
         </div>
-      </div>
-      <div class="index-o-nas-button-viac-center">
-        <a href="o-nas"><button class="about-us-button">Viac</button></a>
-      </div>
     </div>
-  </div>
-    <!---->
-    <!-- Line breaker, skopirovat vsade kde chcete oddelit stránku -->
-    <!---->
 </body>
 <footer>
     <?php
