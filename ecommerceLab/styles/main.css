@@ -564,6 +564,11 @@ Aktuality template
 ###############
 Galeria
 */
+.gallery-row1, .gallery-row2
+{
+  height: 660.69px;
+  margin-bottom: 10px;
+}
 .pictext
 {
   opacity: 0;
@@ -582,15 +587,10 @@ Galeria
 {
   opacity: 1;
 }
-.gallery-2img-fix
-{
-  display: flex;
-  position: relative;
-}
 .gallery
 {
-  border-radius: 15px;
   vertical-align: 0;
+  border-radius: 15px;
 }
 .gallery-container
 {
@@ -645,6 +645,13 @@ Galeria
 }
 .gallery-lower-small
 {
+  height: 214px;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-lowerer-small
+{
+  height: 167.33px;
   display: flex;
   justify-content: space-between;
 }
