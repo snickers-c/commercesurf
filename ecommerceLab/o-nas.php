@@ -22,29 +22,27 @@
       </div>
       <div class="about-us-flex">
         <div class="about-us-text-1">
-          Spoločnosť Moitin s.r.o. sa od roku založenia 2013 zaoberá stratégiou vzdelávacieho systému v Slovenskej
-          republike s prepojením na zamestnávateľov a prenesením ich požiadaviek na stredné odborné školy. Ponúkame
-          kompletné poradenstvo, analýzu, strategické zacielenie pre školy, vzdelávacie inštitúcie a zamestnávateľov z
-          rôznych oblastí priemyslu. Našim cieľom je pomáhať vzdelávacím inštitúciám vedieť aktuálne zareagovať na
-          potreby trhu práce, pripraviť kvalitných a trhom požadovaných odborníkov pre efektívne fungovanie priemyslu.
-          Rovnako poskytujeme služby v oblasti IT projektov, projektov z EÚ fondov a ponúkame nové vízie, kde
-          implementujeme inovatívne prístupy s dôrazom na vysokú efektivitu a pridanú hodnotu.
+          E-commerce LAB vznikol na základe myšlienky vzdelávať účastníkov v oblasti elektronického obchodu, 
+          nakoľko dlhoročne skúsenosti pri implementácii vzdelávania do stredných o škôl poukázali na to, že
+          je potrebne prakticky prepojiť vzdelávanie na zamestnávateľa a priame firemné prostredie. 
+          Žiakov ZŠ chceme osloviť cez zážitkové vzdelávanie, kde sa kladie dôraz na tímovú spoluprácu, 
+          kreativitu a samovzdelávanie vedené lektorom z praxe.  Zároveň chceme vytvoriť predpoklady, 
+          aby úspešne sa vedeli uchádzať o vzdelávanie na strednej odbernej škole formou duálneho vzdelávania v 
+          danej oblasti. Práve hravé učenie zaručuje, že si deti ani neuvedomujú, že sa po celý čas vzdelávajú, 
+          deje sa to prirodzene a zároveň sú prepojený na reálny e-shop.
         </div>
       </div>
       <div class="about-us-flex">
         <div class="about-us-text-2">
-          PhDr. Slavomír Terezka, riaditeľ Moitin s.r.o.<br>Špecialista v oblasti vzdelávacej politiky, strategický
-          konzultant pre IKT sektor a autor 1. študijného odboru na Slovensku pre IKT sektor „Informačné a sieťové
-          technológie“.
+          <b>Náš Cieľ:</b><br>
+          Zaväzujeme sa pripravovať a vzdelávať najlepších odborníkov v oblasti elektronického obchodu, ktorí 
+          slúžia potrebám tohto odvetvia. Náš e-commerce LAB sa snaží o to, aby boli naši absolventi profesionáli 
+          v danom odvetví a zároveň boli ziskový, kreatívny a pôsobili ako poskytovatelia služieb, alebo podnikatelia
+          po skončení strednej školy.
         </div>
-      </div>
-      <div class="Slavo-class">
-        <img src="https://raw.githubusercontent.com/snickers-c/commercesurf/main/ecommerceLab/pictures/terezka.png"
-          alt="Slavomír">
       </div>
     </section>
   </div>
-  <div class="line-breaker"></div>
 </body>
 <footer>
   <?php
