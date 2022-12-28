@@ -24,10 +24,11 @@
             Kontaktujte nás:
           </p>
           <p>
-            Mobil: Info: +421948068744, +421905639141
+            Mobil: 
+            <br>+421948068744<br> +421905639141
           </p>
           <p>
-            Informácie: info@modelsnavigator.com
+            Informácie: info.ecommercelab@gmail.com
           </p>
         </div>
         <div class="contact-text2">
