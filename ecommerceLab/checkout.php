@@ -4,6 +4,7 @@
     <?php
     include('./head.php') 
   ?>
+  <title>Košik | E-commerce lab</title>
 </head>
 <body>
     <?php
@@ -14,18 +15,18 @@
         alt="white-sand">
     <div class="page-template">
         <section class="section-template">
-            <form action="insert.php" method="POST">
+            <form action="insert" method="POST">
                 <div class="checkout-row">
                     <div class="checkout-left-section">
                         <div class="checkout-form">
                             <p class="checkout-section-title">Osobné údaje</p>
-                            <input class="checkout-field" type="text" name="meno" placeholder="Meno">
-                            <input class="checkout-field" type="text" name="priezvisko" placeholder="Priezvisko">
-                            <input class="checkout-field" type="email" name="email" placeholder="E-mail">
-                            <input class="checkout-field" type="text" name="telefon" placeholder="Telefónny kontakt">
-                            <input class="checkout-field" type="text" name="ulica" placeholder="Ulica">
-                            <input class="checkout-field" type="text" name="mesto" placeholder="Mesto">
-                            <input class="checkout-field" type="text" name="psc" placeholder="PSČ">
+                            <input class="checkout-field" type="text" name="meno" placeholder="Meno" required>
+                            <input class="checkout-field" type="text" name="priezvisko" placeholder="Priezvisko" required>
+                            <input class="checkout-field" type="email" name="email" placeholder="E-mail" required>
+                            <input class="checkout-field" type="text" name="telefon" placeholder="Telefónny kontakt" required>
+                            <input class="checkout-field" type="text" name="ulica" placeholder="Ulica" required>
+                            <input class="checkout-field" type="text" name="mesto" placeholder="Mesto" required> 
+                            <input class="checkout-field" type="text" name="psc" placeholder="PSČ" required>
                         </div>
                     </div>
                     <div class="checkout-right-section">
@@ -47,7 +48,7 @@
                             oninvalid="this.setCustomValidity('Toto pole je povinné.*')"
                             oninput="this.setCustomValidity('')" title="Zaškrtnite toto pole ak chcete pokračovať.">
                         <span class="checkout-box">Bol som oboznámený so
-                            <span class="accept"><a href="/ecommerceLab/obchodne-podmienky.php">Všeobecnými
+                            <span class="accept"><a href="/ecommerceLab/obchodne-podmienky">Všeobecnými
                                     podmienkami</a></span>
                         </span><br>
                         <button type="submit" class="button-checkout">Rezervovať</button><br>
