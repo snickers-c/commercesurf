@@ -51,7 +51,14 @@
                             <span class="accept"><a href="/ecommerceLab/obchodne-podmienky">Všeobecnými
                                     podmienkami</a></span>
                         </span><br>
-                        <button type="submit" class="button-checkout">Rezervovať</button><br>
+                        <?php 
+                          include('./connect.php');
+                          $url = $_SERVER['REQUEST_URI'];
+                          $url_components = parse_url($url);
+                          parse_str($url_components['query'], $params);
+                          $kurzid = $params['ide'];
+                        ?>
+                        <button type="submit" class="button-checkout" name="kurzid" value="<?php echo $kurzid; ?>">Rezervovať</button><br>
                         <div class="checkout-text">Kurz vám potvrdíme mailom</div>
                     </div>
                 </div>
@@ -60,10 +67,6 @@
                         <div class="checkout-form">
                             <p class="checkout-section-title">Info o kurze</p>
                             <?php 
-                                include('./connect.php');
-                                $url = $_SERVER['REQUEST_URI'];
-                                $url_components = parse_url($url);
-                                parse_str($url_components['query'], $params);
                                 $result_kurz = ($conn->query("SELECT * FROM kurzy_templates WHERE id = $params[ide]"));
                                 $dates_kurz = ($conn->query("SELECT * FROM dates WHERE id = $params[idd]"));
                                 $row_kurz = [];
