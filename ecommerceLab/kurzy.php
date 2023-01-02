@@ -32,7 +32,7 @@
            echo '<div class="course">
             <div class="course-img-div">
               <img class="course-img"
-              src="' . $rows["img"] . '">
+              src="' . $rows['img'] . '" alt="' . $rows['alt'] . '">
             </div>
             <div class="course-text">
               <p>
@@ -41,7 +41,7 @@
               <p>
                 '. $rows['text'] .'
               </p>
-              <button class="blue-button"><a class="course-a" href="kurz-template.php?ide='
+              <button class="blue-button"><a class="course-a" href="kurz?ide='
               . $rows['id'] .
               '">Zobraziť kurz</a></button><br><br>
             </div>
@@ -50,7 +50,6 @@
       ?>
     </section>
   </div>
-  <div class="line-breaker"></div>
 </body>
 <footer>
   <?php
